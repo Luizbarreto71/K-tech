@@ -1,4 +1,4 @@
-/* Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -29,6 +29,10 @@ header .container {
     width: 90%;
     margin: auto;
     height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
 }
 
 nav ul {
@@ -124,11 +128,13 @@ footer {
 .card img:hover {
     transform: scale(1.1);
 }
-.logo{
+.logo {
     width: 69px;
     height: auto;
     margin-right: 10px;
     vertical-align: middle;
+    display: inline-block;
+    max-width: 100%;
 }
 nav {
     margin-left: auto;
@@ -174,4 +180,50 @@ nav {
     display: block;
     margin:  auto;
   
+}
+
+.flags {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.flags img {
+    width: 30px; /* Ajuste o tamanho da bandeira */
+    height: auto;
+    margin-right: 10px;
+}
+
+.bandeiras {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    display: flex;
+    gap: 5px;
+
+}
+
+.bandeiras img {
+    width: 20px;
+    height: auto;
+}
+
+.logo{
+    font-size: clamp(1rem, 5vw, 2rem);
+    white-space: nowrap;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    padding: 10px 0;
+}
+
+.container h1{
+white-space: nowrap;
+
 }
