@@ -51,19 +51,20 @@ nav a {
 
 /* Seção Hero */
 #hero {
-    background-color: #104ba4;
-    color: white;
+    color: rgb(34, 3, 3);
     text-align: center;
     padding: 60px 20px;
-}
+   background:transparent;
+   background-color:white;
+
+
+}  
 
 .btn {
     display: inline-block;
-    background-color: #003366;
-    color: white;
-    padding: 10px 20px;
+     padding: 10px 20px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 5px; 
     margin-top: 20px;
 }
 
@@ -227,3 +228,13 @@ nav {
 white-space: nowrap;
 
 }
+
+.banner{
+    position: relative;
+    width:100%;
+    height: 300px;
+    background: url(Caldeiraria.jpg) no-repeat center center/cover;
+    overflow: hidden;
+
+}
+
